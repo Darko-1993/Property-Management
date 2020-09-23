@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hamlett Property Managment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body onload="createCaptcha()">
+	
+	<header class="fixed-top">
+        
+        <nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				
+				<a href="index.html" class="navbar-brand text-uppercase font-weight-bold"><img src="images/logo-white.png" class="logo1" alt="logo"/></a>
+				
+				<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+				<div id="navbarSupportedContent" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-uppercase font-weight-bold active-link" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  Listings
+							</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="listings.html">For Sale</a>
+							  <a class="dropdown-item" href="listings.html">For Rent</a>
+							</div>
+						  </li>
+                        <li class="nav-item active"><a href="services.html" class="nav-link text-uppercase font-weight-bold">Services</a></li>
+						<li class="nav-item"><a href="investors.html" class="nav-link text-uppercase font-weight-bold">Investors</a></li>
+						<li class="nav-item"><a href="owners.html" class="nav-link text-uppercase font-weight-bold">Owners</a></li>
+						<li class="nav-item"><a href="tenants.html" class="nav-link text-uppercase font-weight-bold">Tenants</a></li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-uppercase font-weight-bold" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  About
+							</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="about.html">About Us</a>
+							  <a class="dropdown-item" href="about.html">Our Team</a>
+								<a class="dropdown-item" href="#">Faq</a>
+							</div>
+						  </li>
+						<li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold cont-numb">(123)456-789</a></li>
+                        <!--<li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold apply">Apply now</a></li>-->
+					</ul>
+				</div>
+			</div>
+		</nav>
+        
+    </header>
+    
+    <!-- INNER PAGES HERO -->
+    
+    <section id="inner-hero" style="background-image: url(images/interior.jpg);">
+        <div class="bg-inner-hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="text-inner-hero">
+                            <h5>Contact</h5>
+                            <h1>Info</h1>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><span>/</span></li>
+                                <li><a href="contact.html" class="active-sublink">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    
+    <!-- CONTACT PAGE -->
+    
+    <section id="contact-page">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="text-contact-page">
+                        <h5>If you have question</h5>
+                        <h2>Write to us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare nec dui at scelerisque. Nam odio ligula, rhoncus vel lectus sed, scelerisque porttitor risus.</p>
+                        <ul>
+                            <li>- 922 Street Avenia B</li>
+                            <li>- New Yotk, NY. 35801</li>
+                            <li>- <a href="">(123) 456-789</a></li>
+                            <li>- <a href=""> info@sample.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-log-6 col-md-6 col-sm-12">
+                    <div class="form-contact">
+                        <form> 
+                          <div class="form-row">
+
+                            <div class="form-group col-md-6">
+                              <input type="text" class="form-control firstName form-fields-cont" placeholder="First Name">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                              <input type="text" class="form-control lastName form-fields-cont" placeholder="Last Name">
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                  <input type="email" class="form-control email form-fields-cont" placeholder="Email">
+                            </div>
+
+                              <div class="form-group col-md-12">
+                                  <input type="text" class="form-control number form-fields-cont" placeholder="Number">
+                            </div>
+
+                              <div class="form-group col-md-12">
+                                    <textarea name="message" class="form-control form-fields-cont" style="min-height: 100px;" placeholder="Message"></textarea>
+                            </div>
+
+                          </div>
+
+                            <div onsubmit="validateCaptcha()">
+                                <div id="captcha"></div>
+                                <input type="text" placeholder="Captcha" id="cpatchaTextBox" class="form-control col-md-4 form-fields-cont"/>
+                                <button type="submit" class="btn-captcha-cont">SUBMIT</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="map-cont">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 padd-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96788.02911690141!2d-74.02097244493785!3d40.70423583268333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2srs!4v1600885085268!5m2!1sen!2srs" class="cont-map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-footer">
+                        <img src="images/logo-white.png" alt="footer-logo"/>
+                        <div class="icons-foo">
+                            <ul>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-footer quick">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="">- Property Managment</a></li>
+                            <li><a href="">- Our Rentals</a></li>
+                            <li><a href="">- Commercial</a></li>
+                            <li><a href="">- Available Homes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-footer cont">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li>- 922 Street Avenia B</li>
+                            <li>- New Yotk, NY. 35801</li>
+                            <li><a href="">- (123) 456-789</a></li>
+                            <li><a href="">- info@sample.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-footer downl">
+                        <h4>Download</h4>
+                        <ul>
+                            <li><a href="">- Rental Application</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="copy">
+                        <hr>
+                        <p>Property Management <br> Rentals Homes, Apartments, Offices and Condos</p>
+                        <p>© 2020 All Rights Reserved.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+	
+	<!-- jQuery -->
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendor/wow/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jscript.js"></script>
+
+
+
+</body>
+</html>
